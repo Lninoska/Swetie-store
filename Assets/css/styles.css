@@ -1,0 +1,349 @@
+* { 
+    padding: 0;
+    margin: 0;
+    border: 0;
+    box-sizing: border-box;
+}
+
+/* estilos de home*/ 
+
+body { 
+    color: rgb(103, 230, 204);
+    text-align: center;
+    font-family: 'Josefin Sans', sans-serif;
+}
+
+nav { 
+    background-color: rgb(103, 230, 204);
+    padding: 15px 15px;
+    font-size: 20px;
+}
+
+.logo { 
+    display: flex;
+    align-content: space-between;
+    justify-content: flex-start
+}
+nav ul li { 
+    display: inline-block;
+    vertical-align: middle;
+    margin-right: 25px; 
+}
+
+nav ul li a { 
+    color: white;
+    text-decoration: none;
+}
+
+nav ul li a:hover { 
+    color: rgb(25, 119, 88);
+}
+
+.banner { 
+    background-image:url(../img/banner5.jpg);
+    text-align: left;
+    color: black;
+    padding: 250px;
+    background-repeat: no-repeat;
+    background-size: cover;
+    font-size: 50px;
+    font-weight: 300;
+} 
+
+/* estilos de quienes somos*/ 
+.banner2 {
+    background-image: url(../img/banner\ 5.jpeg);
+    text-align: left;
+    color: black;
+    padding: 250px;
+    background-repeat:no-repeat ;
+    background-size:cover;
+    font-size: 50px;
+    font-weight: 300;
+}
+
+/* estilos del home*/ 
+#scards { 
+    padding: 100px;
+}
+
+#scards h2 { 
+    font-size: 28px;
+}
+
+
+#scards article {
+    display: inline-block;
+    margin: 50px;
+}
+
+#scards img {
+    border-radius: 25px;
+    box-shadow: 2px 2px 10px grey;
+}
+
+#scards figcaption { 
+    font-size: 18px;
+    font-weight: 600;
+    margin: 25px;
+} 
+
+#scards a { 
+    text-decoration: none;  
+    color: white;
+    border: 3px solid rgb(103, 230, 204);
+    border-radius: 8px;
+    padding: 10px;
+    background-color: rgb(103, 230, 204);
+    box-shadow: 1px 1px 8px grey;
+    }
+
+#scards a:hover { 
+    background-color: rgb(7, 209, 142);
+    border-color: rgb(7, 209, 142) ;
+}
+
+#secciontestimonios  {
+    background-image: linear-gradient(45deg, rgb(7, 209, 142), violet);
+    padding: 25px;
+}
+
+#secciontestimonios .titulo {
+    color: white; 
+    font-size: 28px;
+}
+
+#secciontestimonios h2 {
+    margin: 20px;
+    font-size: 32px;
+    font-style: bold;
+} 
+
+#secciontestimonios blockquote { 
+    display: flex;
+    flex-direction: row;
+    justify-content:center;
+    align-items: center;
+    margin: 40px;
+}
+
+
+#secciontestimonios i { 
+    font-size: 20px;
+    color: white; 
+    margin-left: 20px;
+}
+
+#secciontestimonios img  {
+    border-radius: 100px; 
+}
+
+#contacto { 
+    padding: 15px 0px 1px;
+    margin: 30px;
+}
+
+#contacto h3 {
+    font-size: 18px;
+    margin: 10px;
+}
+
+#contacto a  { 
+    color: rgb(103, 230, 204);
+    margin: 15px;
+}
+
+#contacto a:hover{
+    color: rgb(7, 209, 142);
+}
+
+#contacto svg {
+    width: 25px;
+    height: 25px;
+}
+
+#contacto p {
+    display: flex; 
+    flex-direction: row-reverse;
+    justify-content: center;
+    align-items:flex-end
+}
+
+#contacto p { 
+    margin: 5px;
+}
+
+/* estilos de Quienes somos?*/ 
+
+#Quienes p { 
+    text-align: left;
+    padding: 120px;
+    font-size: 20px;
+} 
+#Quienes .texto1 { 
+    display: flex;
+    flex-direction: row;
+}
+
+#Quienes img { 
+    margin: 100px;
+    border-radius: 25%; 
+}
+
+
+#Quienes .texto2 {
+    display: flex;
+} 
+#Quienes .texto3 {
+    display: flex;
+    flex-direction: row;
+}
+
+.linea{
+    padding: 3px;
+    background-color:rgb(103, 230, 204);
+}
+/*Estilos de Contacto*/ 
+.banner3 { 
+    background-image:url(../img/bannercajas.jpg);
+    text-align: left;
+    color: aliceblue;
+    padding: 250px;
+    background-repeat: no-repeat;
+    background-size: cover;
+    font-size: 50px;
+    font-weight: 300;
+}
+
+/*formulario*/ 
+
+.container {
+    display: flex;
+    background-color: rgb(156, 251, 219);
+    height: 750px;
+    width: 1000px;
+    box-shadow: 1px 1px 8px grey; 
+    margin: auto;
+    margin-top: 50px;
+    border-radius: 25px;
+}
+.form { 
+    padding: 30px 80px;
+    width: 50%;
+    display: flex;
+    flex-direction: column;
+}
+
+.form h3 {
+    font-size: 30px;
+    color: white;
+    font-weight: 600;
+    margin-bottom: 25px;
+}
+
+.form p {
+    font-size: 18px;
+    color: #fff;
+    margin-bottom: 25PX;
+} 
+
+label { 
+    font-size: 16px;
+    color: #fff;
+    margin: 10px;
+}
+
+.box {
+    border: 0;
+    background-color: rgb(238, 251, 248);
+    padding: 10px;
+    border-radius: 15px;
+    margin-bottom: 20px;
+    outline: none;
+}
+.submit { 
+    background-color: #fff;
+    border: 0;
+    padding: 15px;
+    color: rgb(103, 230, 204);
+    font-size: 16px;
+    font-weight: 700;
+    border-radius: 15px;
+    margin-bottom: 25px;
+    box-shadow: 1px 1px 5px grey ;
+}
+
+#locacion { 
+    display: flex;
+    flex-direction: column;
+    margin: 100px;
+}
+.fa-solid {
+    margin: 30px;
+    display: flex;
+    justify-content: center;
+    margin-bottom: 30px;
+}
+#locacion p  { 
+    font-size: 18px;
+    color: #fff;
+    font-weight: 600;
+}
+
+/*producto*/ 
+.banner4 {
+    background-image: url(../img/banner5.jpg);
+    text-align: left;
+    color: black;
+    padding: 250px;
+    background-repeat:no-repeat ;
+    background-size:cover;
+    font-size: 50px;
+    font-weight: 300;
+    }
+    
+#productos { 
+    padding: 100px;
+}
+
+#productos h2 { 
+    font-size: 28px;
+}
+#productos article {
+    display: inline-block;
+    margin: 30px;
+}
+
+#productos img {
+    border-radius: 25px;
+    box-shadow: 2px 2px 10px grey;
+}
+
+#productos figcaption { 
+    font-size: 18px;
+    font-weight: 600;
+    margin: 25px;
+} 
+
+#productos a { 
+    text-decoration: none;  
+    color: white;
+    border: 3px solid rgb(103, 230, 204);
+    border-radius: 8px;
+    padding: 6px;
+    background-color: rgb(103, 230, 204);
+    box-shadow: 1px 1px 8px grey;
+    font-size: 14px;
+    }
+
+#productos a:hover { 
+    background-color: rgb(7, 209, 142);
+    border-color: rgb(7, 209, 142) ;
+}
+
+
+
+
+
+
+
